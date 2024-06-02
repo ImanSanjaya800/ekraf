@@ -1,0 +1,7 @@
+{
+  "name": "Ekraf",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
