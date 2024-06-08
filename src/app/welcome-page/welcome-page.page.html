@@ -1,0 +1,33 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button color='primary' (click)="startApp()" [hidden]="!showSkip">Skip</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+  <div class="slide-container">
+    <section class="slide">
+      <img src="assets/img-sidebar-1.png" class="slide-image" />
+      <p><label style="font-size: x-large;">Hai Teman Transparansi</label><br><br> Selamat datang di aplikasi mobile <b>PPID</b> Kementerian Keuangan</p>
+      <p>Selangkah lagi, kamu bisa memanfaatkan fasilitas layanan Informasi Publik Kementerian Keuangan<br><br></p>
+    </section>
+
+    <section class="slide">
+      <img src="assets/img-sidebar-2.png" class="slide-image" />
+      <p>Ajukan permohonan Informasi Publik dan siapkan file identitas sebagai syarat kelengkapan</p>
+      <p>Dalam waktu 10 hari kerja + 7 hari kerja, kamu akan mendapatkan Pemberitahuan Tertulis yang merupakan jawaban atas permohonan Informasi Publik yang diajukan<br><br></p>
+    </section>
+
+    <section class="slide">
+      <img src="assets/img-sidebar-3.png" class="slide-image" />
+      <p>Jika kamu belum puas dengan Pemberitahuan Tertulis dari PPID <br> kamu dapat mengajukan keberatan</p>
+      <p>Tanggapan Keberatan akan disampaikan dalam jangka waktu paling lama 30 hari kerja<br><br></p>
+      <ion-button fill="clear" (click)="startApp()">
+        Lanjutkan
+        <ion-icon slot="end" name="arrow-forward"></ion-icon>
+      </ion-button>
+    </section>
+  </div>
+</ion-content>
