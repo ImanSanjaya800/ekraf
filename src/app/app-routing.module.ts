@@ -23,6 +23,18 @@ const routes: Routes = [
     path: 'welcome-page',
     loadChildren: () => import('./welcome-page/welcome-page.module').then( m => m.WelcomePagePageModule)
   },
+  {
+    path: 'register-bio',
+    loadChildren: () => import('./register/register-bio/register-bio.module').then( m => m.RegisterBioPageModule)
+  },
+  {
+    path: 'register-ekraf',
+    loadChildren: () => import('./register/register-ekraf/register-ekraf.module').then( m => m.RegisterEkrafPageModule)
+  },
+  {
+    path: 'registration',
+    loadChildren: () => import('./register/registration/registration.module').then( m => m.RegistrationPageModule)
+  },
 ];
 
 @NgModule({

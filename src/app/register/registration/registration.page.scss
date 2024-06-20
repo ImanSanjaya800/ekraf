@@ -1,0 +1,45 @@
+.custom-card {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 15px;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    max-width: 150px;
+    max-height: 150px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+  }
+  
+  .icon-large {
+    font-size: 20vw;
+    max-font-size: 100px;
+  }
+  
+  ion-card-header, ion-card-content {
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .icon-wrapper {
+      width: 50vw;
+      height: 50vw;
+    }
+  
+    .icon-large {
+      font-size: 25vw;
+    }
+  }
+  
