@@ -2,7 +2,7 @@
   <div class="header">
     <div class="greeting">
       <p>Halo!</p>
-      <h1>Iman Sanjaya</h1>
+      <h1>{{ dataProfile.nama_lengkap }}</h1>
     </div>
     <div class="header-icons">
       <ion-icon name="notifications-outline" class="notification-icon"></ion-icon>
@@ -18,12 +18,12 @@
         <img src="/assets/icon/ekraf_karawang.png" alt="Ekraf Karawang Logo"/>
       </div>
       <ion-card-header>
-        <ion-card-title>Iman Sanjaya</ion-card-title>
+        <ion-card-title>{{ dataProfile.nama_lengkap }}</ion-card-title>
         <ion-card-subtitle>Game Developer</ion-card-subtitle>
       </ion-card-header>
       <ion-card-content>
         <div class="balance">
-          <span>Karawang</span>
+          <span>{{ dataProfile.alamat }}</span>
           <h2>Tirta Mulya</h2>
         </div>
       </ion-card-content>

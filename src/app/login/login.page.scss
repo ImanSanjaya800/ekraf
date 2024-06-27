@@ -79,3 +79,26 @@ ion-input {
   color: #2c8515;
   font-size: 24px;
 }
+
+.custom-alert .alert-wrapper {
+  background-color: #ffcc00; /* Background color of the alert */
+  color: #000000; /* Text color */
+  border-radius: 10px;
+}
+
+.custom-alert .alert-header {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.custom-alert .alert-icon {
+  font-size: 3em;
+  color: #ff0000; /* Icon color */
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.custom-alert .alert-message {
+  font-size: 1.2em;
+  text-align: center;
+}
